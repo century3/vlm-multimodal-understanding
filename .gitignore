@@ -1,0 +1,16 @@
+# Local model weights (too large for GitHub)
+modelscope_models/
+**/modelscope_models/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets and local tooling
+.env
+.env.*
+.cursor/
+debug-*.log
